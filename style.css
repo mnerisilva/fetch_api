@@ -15,6 +15,12 @@
   margin-top: 30px;
 }
 
+#root ul:first-child {
+  /*background-color: blueviolet;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .spinner {
   position: absolute;
   top: 50%;
@@ -24,6 +30,10 @@
 
 ul {
   list-style-type: none;
+}
+
+ul.card-text-info a ul {
+  background-color: #fff;
 }
 
 ul li img {
@@ -42,6 +52,7 @@ ul li img {
   border-bottom-width: 12px;
   border-bottom-color: aliceblue;
   margin-left: 30px;
+  background-color: #fff;
 }
 
 a {

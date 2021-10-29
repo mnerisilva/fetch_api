@@ -1,8 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 #root {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 .spinner {
@@ -31,6 +41,18 @@ ul li img {
   border-top-right-radius: 0cm;
   border-bottom-width: 12px;
   border-bottom-color: aliceblue;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.avatar {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding-right: 20px;
 }
 
 ul.card-text-info li:first-child {

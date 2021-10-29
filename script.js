@@ -18,14 +18,16 @@ fetch(url)
       rootUl.innerHTML =
         rootUl.innerHTML +
         `
-        <li class="card">
-            <div class="avatar"><img src='${item.picture.thumbnail}' /></div>
-            <ul class="card-text-info">
-                <li>${item.name.first} ${item.name.last}</li>
-                <li>${item.dob.age} anos</li>            
-                <li>${item.email}</li>
-            </ul>
-        </li>
+        <a href="">
+            <li class="card">
+                <div class="avatar"><img src='${item.picture.thumbnail}' /></div>
+                <ul class="card-text-info">
+                    <li>${item.name.first} ${item.name.last}</li>
+                    <li><i class="fas fa-birthday-cake"></i> ${item.dob.age} anos</li>            
+                    <li><i class="far fa-envelope"></i> ${item.email}</li>
+                </ul>
+            </li>
+        </a>
         `;
     });
     spinner.style.opacity = 0;

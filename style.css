@@ -1,3 +1,10 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .spinner {
   position: absolute;
   top: 50%;
@@ -18,10 +25,12 @@ ul li img {
   flex-direction: colunm;
   margin-bottom: 25px;
   border: solid thin #dedede59;
-  max-width: 400px;
+  width: 400px;
   max-height: 500px;
   padding: 15px;
-  border-radius: 5px;
+  border-top-right-radius: 0cm;
+  border-bottom-width: 12px;
+  border-bottom-color: aliceblue;
 }
 
 ul.card-text-info li:first-child {

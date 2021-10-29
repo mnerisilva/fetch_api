@@ -6,7 +6,8 @@ root.append(elementUl);
 
 const rootUl = root.querySelector("ul");
 
-const url = "https://randomuser.me/api/?results=50";
+//const url = "https://randomuser.me/api/?results=50";
+const url = "https://randomuser.me/api/?nat=br&page=3&results=10&seed=abc";
 
 let jsonString = [];
 
